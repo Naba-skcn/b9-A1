@@ -81,35 +81,126 @@ height: 600px;
 }
 .bg-container{ 
     color: #FFF;
-    display: flex;
-    justify-content: left;
+    
 }
-.bg-head-1{
-    text-align: left;
-    display: block;
-}
+
 .bg-head{
 font-family: Merriweather;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px;
 letter-spacing: 7.04px; 
-width: 642px; 
 text-align: left;
-margin: 126px 50px 298px 30px ;
+font-size: 64px;
+width: 642px;
+margin: 126px 50px 0px 30px ;
 }
 .bg-head-2{
-text-align: left;
 color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
 font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin: 0 50px 10px 30px ;
+width: 697px;
 }
+.bg-head-3{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+background: none;
+margin: 0 50px 10px 30px ;
+}
+
 .img-2 {
-display: flex;
 width: 319.83px;
 height: 464.662px;
 padding: 100px 0px 0px 0px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+flex-shrink: 0;
+}
+.bg-2{
+background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+width: 1320px;
+height: 350px;
+flex-shrink: 0;
+width: 65%;
+margin: 100px auto;
+color: #070211;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-transform: capitalize;
+text-align: center;
+padding: 60px 0 0 0 ;
+}
+.text-style{
+color: #F00;
+}
+.btn{
+background-image: url('../resources/Rectangle\ 2.png');
+background-size: 50px;
+border: none;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.bg-3{
+    justify-content: center;
+display: flex;
+background: #FFF;
+height: 7335px;
+width: 1320px;
+flex-shrink: 0;
+width: 65%;
+margin: 100px auto;
+font-family: Inter;
+font-size: 18px;
+padding: 60px 0 0 0 ;
+}
+.a-1{
+color: #F00;
+text-align: left;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.a-2{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.a-3, .a-6{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+width: 393px;
+}
+.a-4{
+width: 300px;
+height: 300px;
+flex-shrink: 0;
+border: 15px solid red; 
+border-radius: 50%; 
+padding: 25px;
+margin: 0 75px 0 75px;
+}
+.a-5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.a-7{
+width: 130px;
+height: 130px;
 flex-shrink: 0;
 }
