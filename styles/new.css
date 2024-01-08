@@ -11,7 +11,7 @@ body{
     width: 100%;
     height: 600px;
     flex-shrink: 0;
-    margin: 100px auto;
+    margin: 20px auto;
     fill-opacity: 30%;
 }
 .banner-container{ 
@@ -154,14 +154,14 @@ text-transform: uppercase;
 justify-content: center;
 display: flex;
 background: #FFF;
-height: 7335px;
+height: 400px;
 width: 1320px;
 flex-shrink: 0;
 width: 100%;
 margin: auto;
 font-family: Inter;
 font-size: 18px;
-padding: 60px 0 0 0 ;
+padding: 60px 0 0 1px ;
 }
 .a-1{
 color: #F00;
@@ -204,4 +204,86 @@ margin: 0 75px 0 75px;
 width: 130px;
 height: 130px;
 flex-shrink: 0;
+}
+.bg-4{
+    justify-content: center;
+    display: flex;
+    background: #FFF;
+    height: 200px;
+    width: 1320px;
+    flex-shrink: 0;
+    width: 100%;
+    margin: auto;
+    font-family: Inter;
+    font-size: 18px;
+    text-align: center;
+    line-height: 10px;
+}
+.b-1{
+color: #070211;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+}
+.b-2{
+color: #F00;
+font-family: Merriweather;
+font-size: 60px;
+font-weight: 900;
+}
+.b-3{
+color: #070211;
+font-family: Merriweather;
+font-size: 60px;
+font-weight: 900;
+}
+.b-4{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 32px;
+}
+.new-bg{
+justify-content: space-between;
+display: flex;
+background: #FFF;
+height: 500px;
+width: 1320px;
+flex-shrink: 0;
+width: 100%;
+margin: auto;
+font-family: Inter;
+font-size: 18px;
+text-align: center;
+line-height: 10px;
+background-image: url('../resources/Rectangle\ 2.png');
+background-repeat: no-repeat;
+background-position: bottom;
+
+}
+.gift-box{
+width: 400px;
+height: 450px;
+flex-shrink: 0;
+padding: 0 0 0px 260px;
+
+}
+.girl{
+width: 300px;
+height: 270px;
+flex-shrink: 0;
+padding:0 6px 0 0;
+border-radius: 16px 16px 0px 0px;
+background-image: hide;
+position: relative;
+z-index: 1;
+}
+.discount{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    padding: 0 0 0 950px;
 }
