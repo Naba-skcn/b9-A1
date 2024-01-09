@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     background-blend-mode: multiply;
-    border-radius: 16px;
+    border-radius: 16px 16px 16px ;
     width: 80%;
     height: 600px;
     margin: -100px auto;
@@ -329,6 +329,12 @@ flex-shrink: 0;
 width: 80%;
 margin: auto auto 20px auto;
 }
+.c-1:hover{
+    background-color: rgba(0, 0, 0, 0.308);
+}
+ .c-2:hover{
+    background-color: rgba(0, 0, 0, 0.308);
+}
 .p-1, .p-2 {
     display: flex;
     border-radius: 16px;
@@ -440,5 +446,5 @@ margin: 0 550px 0;
 }
 hr{
     background: rgba(255, 255, 255, 0.15);
-    size: -100px;
+    height: -4px;
 }
