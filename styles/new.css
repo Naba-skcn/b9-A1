@@ -253,7 +253,7 @@ height: 500px;
 width: 1320px;
 flex-shrink: 0;
 width: 80%;
-margin: -80px auto;
+margin: -80px auto 15px auto;
 font-family: Inter;
 font-size: 18px;
 text-align: center;
@@ -290,13 +290,15 @@ z-index: 1;
 }
 .new-bg-1{
 background: #FFF;
-height: 120px;
-width: 1320px;
+background-size: 70%;
+height: 100px;
+width: 1000px;
 flex-shrink: 0;
-width: 100%;
-margin: auto;
+width: 80%;
+margin: 15px auto auto auto;
 text-align: left;
 line-height: 10px;
+padding: 10px 10px 10px 300px;
 }
 .b-5{
 color: #F00;
@@ -320,26 +322,82 @@ line-height: 10px;
 }
 .p-images{  
 background: #FFF;
+background-size: 70%;
 height: 120px;
 width: 1000px;
 flex-shrink: 0;
-width: 100%;
-margin: auto;
+width: 80%;
+margin: auto auto 20px auto;
 }
 .p-1, .p-2 {
     display: flex;
     border-radius: 16px;
     border: whitesmoke;
+    height: 260px;
+    width: 260px;
+    padding-left: 155px;
+
 }
 .c-1,.c-2  {
-    padding: 5px;
+    padding: 5px 2px 2px 10px;
     width: 1000px;
 }
-.sub-part{
+  
+  .sub-part {
+ margin: 450px 100px 10px 300px;
+ border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
-height: 120px;
-width: 300px;
+justify-content: center;
+width: 55%;
+height: 300px;
 flex-shrink: 0;
-width: 100%;
-margin: auto;
+line-height: 10px;
+  }
+.logo{
+width: 80px;
+height: 80px;
+flex-shrink: 0;
+image-orientation: center;
+padding: 20px 320px 1px ;
+}
+.logo-head{
+color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 30px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.logo-h-2{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 13px;
+font-weight: 300;
+line-height: 15px;
+}
+.logo-h-3{
+justify-content: center;
+position: center;
+border-radius: 50px;
+background: #FFF;
+border: none;
+width: 100px;
+height: 30px;
+padding: 0px 300px 0px 0px;
+margin-left: 125px;
+}
+.logo-h-4{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+text-transform: capitalize;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+width: 100px;
+height: 30px;
+margin-left: -100px;
 }
